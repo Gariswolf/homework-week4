@@ -1,0 +1,6 @@
+@each $infix, $breakpoints in $grid-breakpoints
+    @include rwd($breakpoints)
+        @each $prop, $abbrev in (width: w, height: h)
+            @each $size, $length in $sizes 
+                .#{$abbrev}-#{$infix}-#{$size} 
+                    #{$prop}: $length !important 
