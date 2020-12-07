@@ -14919,15 +14919,6 @@ h1 {
 .about .card {
   max-width: 237px; }
 
-.classic-img {
-  height: 134px; }
-  @media (min-width: 576px) {
-    .classic-img {
-      height: 168px; } }
-  @media (min-width: 992px) {
-    .classic-img {
-      height: 320px; } }
-
 .classic-icon {
   width: 2rem; }
   @media (min-width: 992px) {
