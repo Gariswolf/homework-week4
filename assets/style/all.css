@@ -13953,6 +13953,9 @@ h1 {
   .border-xs-white {
     border: 1px solid #fff; } }
 
+.border-bottom-primary {
+  border-bottom: 1px solid #AA0601; }
+
 .border-bottom-white {
   border-bottom: 1px solid #fff; }
 
@@ -14090,6 +14093,10 @@ h1 {
     height: 100% !important; }
   .h-xl-auto {
     height: auto !important; } }
+
+.wh-100 {
+  width: 100%;
+  height: 100%; }
 
 @media (min-width: 0px) {
   .position-xss-static {
@@ -14977,19 +14984,55 @@ h1 {
     .location-detail .map {
       height: 494px; } }
 
-header {
+.header {
   background-image: url(../images/qa.png);
   height: 143px; }
   @media (min-width: 768px) {
-    header {
+    .header {
       height: 304px; } }
   @media (min-width: 768px) {
-    header .icon {
+    .header .icon {
       width: 48px;
       height: 48px; } }
   @media (min-width: 992px) {
-    header .icon {
+    .header .icon {
       width: 58px;
       height: 58px; } }
+
+.product-header .icon {
+  width: 14px;
+  height: 14px; }
+  @media (min-width: 768px) {
+    .product-header .icon {
+      width: 32px;
+      height: 32px; } }
+  @media (min-width: 992px) {
+    .product-header .icon {
+      width: 48px;
+      height: 48px; } }
+
+.product-header .col-4 {
+  border: 1px solid #DEE2E6;
+  border-bottom: 4px solid transparent; }
+  @media (min-width: 768px) {
+    .product-header .col-4 {
+      border-bottom-width: 8px; } }
+  @media (min-width: 992px) {
+    .product-header .col-4 {
+      border-bottom-width: 16px; } }
+  .product-header .col-4:hover {
+    border-bottom-color: #AA0601; }
+  .product-header .col-4 a {
+    height: 35px;
+    margin-bottom: -8px; }
+    @media (min-width: 768px) {
+      .product-header .col-4 a {
+        height: 69px; } }
+    @media (min-width: 992px) {
+      .product-header .col-4 a {
+        height: 103px; } }
+
+.product-banner {
+  max-width: 945px; }
 
 /*# sourceMappingURL=all.css.map */
